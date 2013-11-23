@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="IStreetRegression" verbose="10">
+        <test name="IStreet Regression" preserve-order="true">
+                <classes>
+                        <class name="org.istreet.testcases.RegisterUser"/>
+                        <class name="org.istreet.testcases.LoginUser"/>
+                        <class name="org.istreet.testcases.ChangeUserInformation"/>
+                </classes>
+        </test>
+</suite>
