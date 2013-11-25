@@ -16,7 +16,7 @@ public class RegisterUser extends TestCaseSetup{
 		IStreetSignUpPage register = PageFactory.initElements(driver, IStreetSignUpPage.class);
 		register.fillOutFirstName("testing");
 		register.fillOutLastName("name");
-		register.fillOutEmail("evtest230420554@emilio.ilovetvguide.com");
+		register.fillOutEmail("emilio.valqui@gmail.com");
 		register.fillOutPassword("testPassword");
 		register.fillOutCompany("test company");
 		register.fillOutNumber("(123) 123-1234");
