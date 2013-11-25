@@ -15,7 +15,7 @@ public class LoginUser extends TestCaseSetup{
 		IStreetHomePage login = PageFactory.initElements(driver, IStreetHomePage.class);
 		login.clickLoginLink();
 		IStreetLoginPage signIn = PageFactory.initElements(driver, IStreetLoginPage.class);
-		signIn.fillOutEmail("evtest230420554@emilio.ilovetvguide.com");
+		signIn.fillOutEmail("emilio.valqui@gmail.com");
 		signIn.fillOutPassword("testPassword");
 		signIn.clickLoginButton();
 		IStreetUserPage logout = PageFactory.initElements(driver, IStreetUserPage.class);
