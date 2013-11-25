@@ -16,7 +16,7 @@ public class ChangeUserInformation extends  TestCaseSetup{
 	IStreetHomePage home = PageFactory.initElements(driver, IStreetHomePage.class);
 	home.clickLoginLink();
 	IStreetLoginPage login = PageFactory.initElements(driver, IStreetLoginPage.class);
-	login.fillOutEmail("evtest230420554@emilio.ilovetvguide.com");
+	login.fillOutEmail("emilio.valqui@gmail.com");
 	login.fillOutPassword("testPassword");
 	login.clickLoginButton();
 	IStreetUserPage user = PageFactory.initElements(driver, IStreetUserPage.class);
